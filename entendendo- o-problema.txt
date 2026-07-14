@@ -1,0 +1,16 @@
+- label 0: normal
+- label 1: tumor
+- dados de 5 hospitais diferentes (0-4)
+	- cada hospital tem seu scanner e protocolo
+	- diferenças em: cor, textura e luminosidade
+	- treino: 0, 3, 4
+	- validação: 1
+	- teste: 2
+	
+- data exploration: 
+	- class imbalance
+	- data invarianves
+	- quais são as infos disponíveis em cada dataset
+	
+	* patch -> pequeno crop de tecido (224x224 para a ResNet) de uma WSI (whole-slide image)
+	
